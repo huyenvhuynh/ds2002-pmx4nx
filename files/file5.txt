@@ -1,0 +1,71 @@
+    1  ls
+    2  pwd
+    3  ls
+    4  ls -al
+    5  cd .
+    6  pwd
+    7  cd ..
+    8  pwd
+    9  cd ..
+   10  pwd
+   11  clear
+   12  ls -al
+   13  cd ~
+   14  pwd
+   15  cd workspaces
+   16  cd /workspaces/
+   17  cd /workspaces/ds2002-pmx4nx/
+   18  ls -al
+   19  touch file1.txt
+   20  ls -al
+   21  touch file2.txt
+   22  ls -al
+   23  touch file3.txt
+   24  ls -al
+   25  echo "a man a plan a canal panama"
+   26* 
+   27  ls -al
+   28  cat file1.txt
+   29  cat file1.txt > file2.txt
+   30  cat file1.txt > file3.txt
+   31  ls -al
+   32  echo "this should be a second line" >> file2.txt
+   33  ls -al
+   34  cat file2.txt
+   35  cat /dev/null > file3.txt
+   36  ls -al
+   37  mv file1.txt files/
+   38  mkdr files
+   39  mkdir files
+   40  mv file1.txt files/
+   41  ls -al
+   42  ls files
+   43  ls -al files
+   44  touch file5.txt
+   45  touch file4.txt
+   46  cp file2.txt file6.txt
+   47  cp file3.txt file7.txt
+   48  ls -al
+   49  mv file*.txt files/
+   50  ls -al
+   51  rm files/file7.txt
+   52  ls -al files
+   53  cd ..
+   54  ls -al
+   55  top
+   56  ps
+   57  ps aux
+   58  cd files/
+   59  ls -al
+   60  ps aux > file6.txt
+   61  ls -al
+   62  cd files
+   63* 
+   64  cd ds2002-omx4nx
+   65  cd ds2002-pmx4nx
+   66  cd files
+   67  ps aux > file6.txt
+   68  ls -al
+   69  history
+   70  ls -al
+   71  history > file5.txt
